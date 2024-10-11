@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input[type="checkbox"]:checked::before {
+    content: "\2714";
+    display: block;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .form {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    gap: 4px;
+    border: 1.5px solid black;
+    @apply mt-3 rounded-md bg-white
+  }
