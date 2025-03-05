@@ -12,7 +12,7 @@ const TaskItems = () => {
    <AddNewTask />
    <Search />
     <div className="bg-teal-600 p-3 mt-10 rounded-md shadow shadow-slate-900">
-      <h1 className="text-center mb-2 text-2xl text-white">My Tasks</h1>
+      <h1 className="text-center mb-2 text-2xl text-white">My Tasks for Today</h1>
       <hr className="border-2 rounded-full w-[10%] mx-auto mb-5" />
       <ul className="text-white pb-4">
         {filteredTaskItems.length && filteredTaskItems ? (
